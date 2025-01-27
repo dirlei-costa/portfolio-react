@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@theme {
+  --font-display: "Caveat", "sans-serif";
+  --font-headline: "Roboto";
+  --font-handwriting: "Poppins";
+}
+@layer components {
+  .button {
+    @apply bg-white px-4 py-2 font-headline text-sm font-semibold transition cursor-pointer
+    rounded-md text-gray-600;
+  }
+}
